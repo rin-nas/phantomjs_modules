@@ -1,6 +1,6 @@
 # PhantomJS v2.1.x to NodeJS v8.x adapter for using NodeJS modules (npm) in PhantomJS
 
-**Usage:**
+## Usage
 
 1) Install some NodeJS modules (ECMA2015 polyfills):
 
@@ -19,3 +19,7 @@
     var argv = process.argv.slice(1), 
         options = require('minimist')(argv);
     ```
+## Warning
+
+Some NodeJS modules won't works in PhantomJS, because they dependents on native NodeJS' interfaces.
+But you can rewite them in javascript, if possible.
