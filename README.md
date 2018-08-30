@@ -1,4 +1,4 @@
-# PhantomJS v2.1.x to NodeJS v8.x adapter for using NodeJS modules in PhantomJS
+# PhantomJS v2.1.x to NodeJS v8.x adapter for using NodeJS modules (NPM) in PhantomJS
 
 **Usage:**
 
